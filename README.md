@@ -13,3 +13,4 @@ Step 2
     ...
     c.crypto_provider = Rails.env.test? ? Authlogic::CryptoProviders::Zero : YOUR_CRYPTO_PROVIDER
 ```
+**IMPORTANT** this gem only for test environment and should not used in production.
