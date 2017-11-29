@@ -1,3 +1,5 @@
+[![Gem](https://img.shields.io/gem/dt/authlogic_crypto_zero.svg?style=flat-square)]()
+
 **Authlogic Crypto Zero** - simply way to add performance when using 
 [Authlogic](https://github.com/binarylogic/authlogic) gem
 during tests execution disabling password encryption. More then 5% faster in comparison with *SCrypt* or *BCrypt* when run tests.
